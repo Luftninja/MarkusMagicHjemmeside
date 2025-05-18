@@ -2,7 +2,18 @@ import type { Product, ProductsResponse } from '../types/Product';
 
 export const fetchProducts = async (): Promise<Product[]> => {
   try {
-    const response = await fetch('./data/products.json');
+    // Add timestamp as cache-busting query parameter
+    const timestamp = new Date().getTime();
+    const response = await fetch(`./data/products.json?t=${timestamp}`, {
+      method: 'GET',
+      headers: {
+        'Cache-Control': 'no-cache, no-store, must-revalidate',
+        'Pragma': 'no-cache',
+        'Expires': '0'
+      },
+      // This ensures the browser doesn't use any cached version
+      cache: 'no-store'
+    });
     if (!response.ok) {
       throw new Error(`Failed to fetch products: ${response.status}`);
     }

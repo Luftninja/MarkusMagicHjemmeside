@@ -6,7 +6,8 @@
   "homepage": "https://mto.github.io/MarkusMagicHjemmeside",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && npm run generate-htaccess",
+    "generate-htaccess": "echo '<IfModule mod_headers.c>\\n<FilesMatch \"\\.(json)$\">\\nHeader set Cache-Control \"no-cache, no-store, must-revalidate\"\\nHeader set Pragma \"no-cache\"\\nHeader set Expires \"0\"\\n</FilesMatch>\\n</IfModule>' > dist/.htaccess",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build && touch dist/.nojekyll",
