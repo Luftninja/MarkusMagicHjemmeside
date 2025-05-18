@@ -79,7 +79,7 @@ const ProductDetail = () => {
           <p className="product-detail-description">{product.description}</p>
           
           <div className="product-detail-price-section">
-            <div className="product-detail-price">${product.price.toFixed(2)}</div>
+            <div className="product-detail-price">{product.price.toFixed(2)} kr.</div>
             <div className="product-detail-status">
               {product.inStock ? (
                 <span className="in-stock">In Stock</span>
