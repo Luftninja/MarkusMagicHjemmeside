@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Product } from '../types/Product';
+import type { Product } from '../types/Product';
 import { fetchProductById } from '../services/productService';
 
 const ProductDetail = () => {
