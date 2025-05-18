@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Magic Wand",
+      "description": "A powerful magic wand made from the finest oak wood. Perfect for casting spells and enchantments.",
+      "price": 19.99,
+      "imageUrl": "https://placehold.co/300x200/png?text=Magic+Wand",
+      "category": "Accessories",
+      "inStock": true,
+      "details": "This Magic Wand is a versatile tool for any aspiring magician. Its core contains a rare phoenix feather, providing exceptional magical conductivity. The wand measures 11 inches long and is finished with a polished handle for a comfortable grip. Suitable for beginners and experienced practitioners alike."
+    },
+    {
+      "id": 2,
+      "name": "Illusion Kit",
+      "description": "Complete kit for performing amazing illusions and captivating your audience.",
+      "price": 49.99,
+      "imageUrl": "https://placehold.co/300x200/png?text=Illusion+Kit",
+      "category": "Kits",
+      "inStock": true,
+      "details": "The Illusion Kit contains everything you need to perform 10 classic illusions. Includes a detailed instruction manual with step-by-step guides, special cards, coins, and other props. Perfect for parties and events. Recommended for ages 12 and up."
+    },
+    {
+      "id": 3,
+      "name": "Levitation Device",
+      "description": "Amaze your audience with this professional-grade levitation device.",
+      "price": 129.99,
+      "imageUrl": "https://placehold.co/300x200/png?text=Levitation+Device",
+      "category": "Professional",
+      "inStock": false,
+      "details": "The Levitation Device is a state-of-the-art tool for creating stunning levitation illusions. Crafted with precision engineering, it can support objects up to 500 grams. The device is concealable and easily controlled, allowing for smooth and natural movements. Includes a carrying case and maintenance kit. Professional training recommended."
+    },
+    {
+      "id": 4,
+      "name": "Card Trick Set",
+      "description": "Master the art of card tricks with this comprehensive set.",
+      "price": 24.99,
+      "imageUrl": "https://placehold.co/300x200/png?text=Card+Trick+Set",
+      "category": "Cards",
+      "inStock": true,
+      "details": "The Card Trick Set includes 3 specially designed decks, a card mat, and a detailed guidebook covering 50 impressive tricks from beginner to advanced levels. The cards are made from high-quality materials for durability and smooth handling. Perfect for developing dexterity and showmanship. Suitable for ages 8 and up."
+    },
+    {
+      "id": 5,
+      "name": "Disappearing Box",
+      "description": "Classic disappearing box illusion, perfect for making small objects vanish.",
+      "price": 34.99,
+      "imageUrl": "https://placehold.co/300x200/png?text=Disappearing+Box",
+      "category": "Props",
+      "inStock": true,
+      "details": "The Disappearing Box is a classic prop for any magician's collection. Measuring 6x6x6 inches, it's perfect for making small objects vanish instantly. The box features a secret compartment mechanism and is decorated with mystical symbols. Includes a practice routine and performance tips. Made from durable wooden materials with a velvet interior."
+    }
+  ]
+}
