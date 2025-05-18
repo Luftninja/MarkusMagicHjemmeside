@@ -73,13 +73,27 @@ MarkusMagicHjemmeside/
 
 ## Deployment
 
-To deploy the application to GitHub Pages:
+### Manual Deployment
+
+To manually deploy the application to GitHub Pages:
 
 ```bash
 npm run deploy
 ```
 
 This will build the application and deploy it to the `gh-pages` branch of your repository.
+
+### Automatic Deployment
+
+The project is configured with GitHub Actions to automatically deploy to GitHub Pages whenever changes are pushed to the main branch. The workflow:
+
+1. Checks out the code
+2. Sets up Node.js
+3. Installs dependencies
+4. Builds the project
+5. Deploys to the gh-pages branch
+
+You can view the workflow configuration in `.github/workflows/deploy.yml`.
 
 ## Adding or Modifying Products
 
