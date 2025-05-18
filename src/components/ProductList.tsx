@@ -52,7 +52,7 @@ const ProductList = () => {
               />
               <h2 className="product-name">{product.name}</h2>
               <p className="product-description">{product.description}</p>
-              <div className="product-price">${product.price.toFixed(2)}</div>
+              <div className="product-price">{product.price.toFixed(2)} kr.</div>
               <div className="product-status">
                 {product.inStock ? (
                   <span className="in-stock">In Stock</span>
