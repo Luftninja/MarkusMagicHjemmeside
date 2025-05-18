@@ -2,7 +2,7 @@ import type { Product, ProductsResponse } from '../types/Product';
 
 export const fetchProducts = async (): Promise<Product[]> => {
   try {
-    const response = await fetch('/data/products.json');
+    const response = await fetch('./data/products.json');
     if (!response.ok) {
       throw new Error(`Failed to fetch products: ${response.status}`);
     }
