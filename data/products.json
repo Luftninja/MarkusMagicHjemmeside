@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Magic Wand",
+      "name": "Magic Wand 101",
       "description": "A powerful magic wand made from the finest oak wood. Perfect for casting spells and enchantments.",
       "price": 19.99,
       "imageUrl": "https://placehold.co/300x200/png?text=Magic+Wand",
