@@ -2,13 +2,13 @@
   "products": [
     {
       "id": 5,
-      "name": "Disappearing Box",
-      "description": "Classic disappearing box illusion, perfect for making small objects vanish.",
-      "price": 34.99,
-      "imageUrl": "https://thecardcollective.dk/cdn/shop/products/6efd6fa7-1ca3-5705-aeae-6cb3a9bc8fd4.jpg?v=1622045102",
+      "name": "Innistrad Booster Box",
+      "description": "Crimson Vow - Draft Booster Box (Display) - 36 Draft Boosters + Box Topper (Magic the Gathering)",
+      "price": 620,
+      "imageUrl": "https://www.kelz0r.dk/magic/images/vow_db_box.jpg",
       "category": "Props",
       "inStock": true,
-      "details": "The Disappearing Box is a classic prop for any magician's collection. Measuring 6x6x6 inches, it's perfect for making small objects vanish instantly. The box features a secret compartment mechanism and is decorated with mystical symbols. Includes a practice routine and performance tips. Made from durable wooden materials with a velvet interior."
+      "details": "Innistrad: Crimson Vow er den anden af to Innistrad-serier i efteråret 2021, og følger efter Innistrad: Midnight Hunt! Innistrad: Crimson Vow har et fokus på vampyrer, hvorimod Innistrad: Midnight Hunt har et fokus på varulve. Som en hyldest til den kendte vampyrfortælling er der lavet Dracula Series - en række af kort fra serien med alternative navne og illustrationer inspireret af Bram Stokers Dracula-roman! Ligesom i den tidligere Godzilla Series tæller disse kort på alle måder som den normale version fra serien selv, og kortets originale navn står også under Dracula-navnet. Kort fra Dracula Series kan fås som Box Toppers (altid i foil!) i Draft, Set og Collector booster displays, samt både i nonfoil og foil i Collector booster packs. Blood tokens er en ny form for artifact token (ligesom tidligere Food, Clue og Treasure tokens), der særligt bliver brugt af vampyrer. Alle Blood tokens har evnen "(1), (T), Discard a card, Sacrifice this artifact: Draw a card." - men derudover har mange kort i serien abilities der drager fordel af at lave, kontrollere eller ofre Blood tokens! Menneskene på Innistrad er nødt til at ty til nye metoder for at overvinde deres overnaturlige fjender, og væsener med Training har mulighed for at blive stærkere hvis bare der er andre til at træne eller inspirere dem! Når et væsen med Training angriber, får det automatisk en +1/+1 counter, hvis et andet væsen med højere power også angriber."
     }
   ]
 }
